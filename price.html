@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap & CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="CSS/style.css" rel="stylesheet" />
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+    <title>Health Track</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="p-2 navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container p-1">
+            <a class="navbar-brand" id="fontBrand" href="index.html">Health Track</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <a class="nav-link" href="price.html">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sucessStories.html">Histórias de Sucesso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howItWorks.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a role="button" id="btn-LogIn" class="btn btn-outline-warning btn-sm" href="loginForm.html">Entrar</a>
+                    </li>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+<!--Price section-->
+<div class="demo pb-5">
+    <div class="container pb-3">
+        <h2 class="text-center heading priceHeading pt-3">Planos</h2>
+        <h3 class="text-center heading priceHeading">Com que frequência você se exercita por semana?</h3>
+        <div class="row justify-content-md-center">
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTable basic">
+                    <div class="pricingTable-header">
+                        <i class="fa fa-briefcase"></i>
+                        <div class="price-value"> R$
+                        59,90 <span class="month">por mês</span> </div>
+                    </div>
+                    <h3 class="heading">Básico</h3>
+                    <div class="pricing-content">
+                        <ul>
+                            <li><b>*</b> NÃO FAÇO EXERCÍCIOS</li>
+                            <li><b>*</b> Eu preciso tirar a poeira do meu tênis</li>
+                        </ul>
+                    </div>
+                    <div class="pricingTable-signup">
+                        <a href="loginForm.html">criar a minha conta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTable premium">
+                    <div class="pricingTable-header">
+                        <i class="fa fa-diamond"></i>
+                        <div class="price-value"> R$ 119,90 <span class="month">por mês</span> </div>
+                    </div>
+                    <h3 class="heading">Premium</h3>
+                    <div class="pricing-content">
+                        <ul>
+                            <li><b>*</b> MAIS DE 4X POR SEMANA</li>
+                            <li><b>*</b> Ser ativo é ótimo</li>
+                        </ul>
+                    </div>
+                    <div class="pricingTable-signup">
+                        <a href="loginForm.html">criar a minha conta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTable advanced">
+                    <div class="pricingTable-header">
+                        <i class="fa fa-cube"></i>
+                        <div class="price-value"> R$
+                        89,90 <span class="month">por mês</span> </div>
+                    </div>
+                    <h3 class="heading">Avançado</h3>
+                    <div class="pricing-content">
+                        <ul>
+                            <li><b>*</b> PELO MENOS 2X POR SEMANA</li>
+                            <li><b>*</b> Eu gosto de suar às vezes</li>
+                        </ul>
+                    </div>
+                    <div class="pricingTable-signup">
+                        <a href="loginForm.html">criar a minha conta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Plan description section-->
+<section class="plansD-bg-image">
+    <div class="container">
+        <h3 class="fs-1 pt-5 mb-3 pb-3 text-white text-center text-opacity-75"> Tudo o que voce precisa para ter sucesso</h3>
+        <div class="row">
+            <div class="col text-left">
+                <div class="p-5 bg-transparent">
+                    <ul class="list-unstyled">
+                        <li class="text-opacity-75 fs-2 text-white mb-4 pb-3">
+                            O seu Estilo de Vida
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Investir apenas de 20 a 30 minutos por dia para ficar em forma
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Ajuste facilmente o nosso programa fitness ao seu estilo de vida com mais de 40 programas de treinamento
+                            personalizados.
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Disponível em seu dispositivo favorito de aplicativos de smartphone, Websites e TV.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col text-left">
+                <div class="p-5 bg-transparent">
+                    <ul class="list-unstyled">
+                        <li class="text-opacity-75 fs-2 text-white mb-4 pb-3">
+                            O seu Plano
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Treinos exclusivos projetados pelos melhores treinadores para ajudá-lo a obter resultados incríveis.
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Planos de treino verdadeiramente únicos, perfeitos para o seu nível de condicionamento físico e objetivos.
+                        </li>
+                        <li class="text-opacity-75 text-white text-white mb-4 pb-1">
+                            Obtenha instruções fáceis de seguir, além de dicas de líderes do setor para mantê-lo motivado diariamente.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col text-left">
+                <div class="p-5 bg-transparent">
+                    <ul class="list-unstyled">
+                        <li class="text-opacity-75 fs-2 text-white mb-4 pb-3">
+                            O seu Sucesso
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Treinos exclusivos projetados pelos melhores treinadores para ajudá-lo a obter resultados incríveis.
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Planos de treino verdadeiramente únicos, perfeitos para o seu nível de condicionamento físico e
+                            objetivos.
+                        </li>
+                        <li class="text-opacity-75 text-white mb-4 pb-1">
+                            Obtenha instruções fáceis de seguir, além de dicas de líderes do setor para mantê-lo motivado
+                            diariamente.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-grid gap-2 col-2 mx-auto justify-content-center">
+                    <a id="hero-btn" class="mb-5 btn btn-danger text-nowrap" role="button" href="price.html">Testar 30 Dias Grátis</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer section-->
+<footer class="footer navbar-fixed-bottom">
+    <div class="container">
+        <!-- social media icons -->
+        <div class="social-icons pt-3 text-center">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook p-2"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram p-2"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter p-2"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin p-2"></i></a>
+        </div>
+        <p class="text-center text-dark pt-3">
+            © 2022 Made with
+            <i class="p-1 text-danger fas fa-heart"></i>
+            by Henrique. All Rights Reserved.
+        </p>
+        <br>
+    </div>
+</footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
